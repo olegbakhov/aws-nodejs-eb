@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'Demo app with PL & Elastic Beanstalk'
+    title: 'Demo app with PipeLine & ElasticBeanstalk'
     })
     res.status(200).end();
 })
